@@ -1,0 +1,41 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid #f0a1f7;
+    box-shadow: 0 0 0 2px;
+    font-size: 50px;
+    line-height: 75px;
+    color: gold;
+    cursor: pointer;
+}
+.cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+.gameContainer{
+    font-family: cursive;
+    text-align: center;
+}
+.gradient{
+    font-family: Impact, sans-serif;
+    background-image: linear-gradient(120deg, #ff00f7, gold);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.restartBtn{
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    font-family: cochin;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(255, 89, 89);
+    border: 5px outset rgb(255, 89, 89);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
